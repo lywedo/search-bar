@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="self-center mr-2 text-lg">Gmail</div>
                 <div className="self-center mr-2  text-lg">Images</div>
             </div>
-            <SearchBar className={"my-auto w-3/5 self-center"} func={goToSearch}/>
+            <SearchBar className={"my-auto w-3/5 self-center"} func={goToSearch} showButtons={true}/>
         </div>
     )
 }
